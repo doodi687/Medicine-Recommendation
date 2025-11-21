@@ -46,25 +46,33 @@ An AI-powered web application that predicts diseases based on symptoms and provi
 ```bash
 git clone https://github.com/doodi687/Medicine.git
 cd Medicine
+```
 
-    2. Create Virtual Environment
+### 2. Create Virtual Environment
+```bash
+python -m venv .venv
+```
 
-    python -m venv .venv
+###  3. Activate Virtual Environment
+```bash
+.venv\Scripts\activate
+```
 
+###  4. Install Requirements
+```bash
+pip install -r requirements.txt
+```
 
-    3. Activate Virtual Environment
+###  5. Run the Application
+```bash
+python main.py
+```
 
-    .venv\Scripts\activate
-
-    4. Install Requirements
-
-    pip install -r requirements.txt
-
-    5. Run the Application
-
-    python main.py
-
-
-    Now visit:
-
+###  Now visit:
+```bash
 👉 http://127.0.0.1:5000
+```
+---
+
+### Author
+- Vishal Doodi( AI & Data Science)
